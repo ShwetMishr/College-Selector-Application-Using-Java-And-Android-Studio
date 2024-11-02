@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7E7E7"
+
+    tools:context=".Secondactivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Welcome To ZindagiBano "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Search for colleges fees and more..."
+        android:paddingTop="15dp"
+        android:onClick="search_now"
+        android:drawableLeft="@drawable/search_icon"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingRight="15dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/design"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="_____________________Important Links_______________________ "/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+
+            android:layout_marginTop="15dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+              >
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="sans-serif"
+                    android:gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/design_default_color_primary_variant"
+                    android:text="Jee Main"
+                    app:rippleColor="#DA1313"
+                    tools:visibility="visible"
+                    />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+
+                    android:gravity="bottom"
+                    android:text="Jee Adv" />
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/button_bg"
+                    android:text="JoSAA"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="bottom"/>
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/button_bg"
+                    android:text="CSAB"
+
+                    android:gravity="bottom"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:paddingStart="5dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="15dp">
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:autoStart="true"
+                    android:flipInterval="2000">
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/iits"
+                        android:onClick="iitlink"
+                        android:clipToOutline="true"
+                        android:elevation="@dimen/cardview_compat_inset_shadow"
+                        android:background="@drawable/image"
+                        />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:background="@drawable/image"
+                        android:elevation="@dimen/cardview_compat_inset_shadow"
+                        android:src="@drawable/p2"
+                        android:onClick="parullink"
+                        android:clipToOutline="true"/>
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:background="@drawable/image"
+                        android:elevation="@dimen/cardview_compat_inset_shadow"
+                        android:src="@drawable/galgotia"
+                        android:onClick="galgotialink"
+                        android:clipToOutline="true"/>
+
+
+                </ViewFlipper>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+
+            android:layout_marginTop="15dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="_______________All Cutoffs_______________ "/>
+
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:gravity="bottom"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="15dp">
+
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/button_bg"
+                    android:text="IIT"
+                    android:drawableLeft="@drawable/ic_menu_camera"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="65dp"
+                    android:background="@drawable/button_bg"
+                    android:text="NIT"
+
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+
+                android:layout_marginTop="15dp">
+
+
+
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/button_bg"
+                    android:text="IIIT"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:selectAllOnFocus="true"
+                    android:focusedByDefault="true"
+
+                    android:outlineSpotShadowColor="@color/design_default_color_error"
+                    android:gravity="center"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="65dp"
+                    android:background="@drawable/button_bg"
+
+                    android:text="Private"/>
+
+
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:onClick="signout"
+                android:text="signout" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hee"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/user_details"/>
+
+
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

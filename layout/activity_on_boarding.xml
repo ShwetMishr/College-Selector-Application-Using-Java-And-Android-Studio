@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/deg2"
+
+    android:layout_marginTop="1dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="1dp"
+
+    tools:context=".OnBoarding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Engg. "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Carrer "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Guidance "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Why Worrying? Zindagi bachao is a very  "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="#E64A19"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Known name in Guiding Students for "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="#E64A19"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="admission in their Dream Colleges. "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="#E64A19"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="let's find colleges"
+        android:textSize="18dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/design"
+        android:textStyle="bold"
+        android:focusedByDefault="true"
+        android:gravity="center"
+        android:clipToOutline="true"
+        android:onClick="ddd"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Counselling support and guidance, College Cutoff details and  "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="#E64A19"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="College Features and comparing different colleges. "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+
+        android:textColor="#E64A19"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+
+</LinearLayout>
